@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cuda - An awesome single page portfolio html template</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/animated-circle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <!--header section start-->
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a class="logo" href="index.html"><img src="./images/logo.png" alt="Butterfly"></a>
+                <ul class="main-nav">
+                    <li class="">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="habitant.html">Habitant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="diet.html">Diet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="behavior.html">Behavior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="life-cycle.html">Life cycle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="adaptation.html">Adaptations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="conservation.html">Conservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="fun-fact.html">Fun Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about-me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div class="overlay" id="myNav">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="index.html">Home</a>
+                            <a onclick="closeNav()" href="habitant.html">Habitant</a>
+                            <a onclick="closeNav()" href="diet.html">Diet</a>
+                            <a onclick="closeNav()" href="behavior.html">Behavior</a>
+                            <a onclick="closeNav()" href="life-cycle.html">Life cycle</a>
+                            <a onclick="closeNav()" href="adaptation.html">Adaptations</a>
+                            <a onclick="closeNav()" href="conservation.html">Conservation</a>
+                            <a onclick="closeNav()" href="fun-fact.html">Fun Facts</a>
+                            <a onclick="closeNav()" href="about-me.html">About Me</a>
+                            <a onclick="closeNav()" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="hero-section row">
+            <div class="hero-img">
+                <img src="./images/hero-img.png" alt="">
+            </div>
+            <div class="hero-text">
+                <h1><span>Discover the World of The Tigers</span></h1>
+            </div>
+        </div>
+
+    </header>
+    <!--header section end-->
+
+    <!--portfolio section start-->
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2>Subspecies of Tiger</h2>
+            <p class="little-description">There are six recognized subspecies of tigers.These subspecies are distributed across different regions of Asia. Please note that the classification of tiger subspecies can be subject to updates based on ongoing research, and it's essential
+                to refer to the latest scientific literature for the most current information.
+            </p>
+        </div>
+        <div class="row">
+            <div class="portfolio-menu ">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".btiger">bengal tiger</button>
+                <button type="button" data-filter=".itiger">Indochinese Tiger</button>
+                <button type="button" data-filter=".mtiger">Malayan Tiger</button>
+                <button type="button" data-filter=".stiger">Siberian Tiger</button>
+                <button type="button" data-filter=".ctiger">South China Tiger</button>
+                <button type="button" data-filter=".sttiger">Sumatran Tiger</button>
+            </div>
+        </div>
+        <div class="row s-container container">
+            <div class="s-item box mix mtiger">
+                <img src="./images/mtiger.jpg" class="portfolio-image" alt="">
+                <h4>Malayan Tiger/h4>
+            </div>
+            <div class="s-item box mix stiger">
+                <img src="./images/stiger.jpg" class="portfolio-image" alt="">
+                <h4>Siberian Tiger</h4>
+            </div>
+            <div class="s-item box mix sttiger">
+                <img src="./images/sttiger.jpg" class="portfolio-image" alt="">
+                <h4>Sumatran Tiger</h4>
+            </div>
+            <div class="s-item box mix btiger">
+                <img src="./images/btiger.jpg" class="portfolio-image" alt="">
+                <h4>Royal Bengal Tiger</h4>
+            </div>
+            <div class="s-item box mix ctiger">
+                <img src="./images/ctiger.jpg" class="portfolio-image" alt="">
+                <h4>South china tiger</h4>
+            </div>
+            <div class="s-item box mix itiger">
+                <img src="./images/itiger.jpg" class="portfolio-image" alt="">
+                <h4>Indo-Chinese Tiger</h4>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!--team section start-->
+    <section class="team-section " id="team">
+        <div class="row">
+            <h2>Get Involved in Conservation</h2>
+            <p class="little-description">Be a part of the solution! Join us in supporting the crucial conservation initiatives dedicated to Bengal Tigers. Discover the ongoing efforts to safeguard their habitats, prevent poaching, and promote awareness about the importance of preserving
+                these iconic creatures.
+            </p>
+        </div>
+        <div class="row">
+            <div class="social-link">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--team section end-->
+
+    <!--footer section start-->
+    <footer class="footer-section">
+        <div class="row">
+            <h4 style="color: white;">&copy All Rights Reserved <span style="color: black;">|</span> Tova D</h4>
+        </div>
+    </footer>
+    <!--footer section end-->
+
+    <!-- JS SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/jquery.waypoints.min.js"></script>
+    <script src="./scripts/animated-circle.js"></script>
+    <script src="./scripts/mixitup.min.js"></script>
+    <script src="./scripts/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+@media only screen and (max-width:1200px) {
+    header {
+        /* height: 65vh; */
+    }
+    .row {
+        margin: 0 15px;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+    .b-item {
+        /* height: 550px */
+    }
+}
+
+@media only screen and (max-width:1115px) {
+    .mobile-menu span {
+        display: inline-block;
+        margin-top: -4rem;
+    }
+    .main-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .hero-text-box {
+        margin-top: 15px;
+    }
+    header {
+        /* height: 55vh; */
+    }
+    html {
+        font-size: 57.5%;
+    }
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-details {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    .hero-text-box {
+        margin-top: 35px;
+    }
+    .b-item {
+        min-width: 100%;
+        /* min-height: 300px; */
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+    }
+    header {
+        /* height: 85vh; */
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .hero-text-box {
+        margin-top: 35px;
+    }
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+    }
+    .hero-section .hero-img {
+        /* display: none; */
+    }
+    .hero-section .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+    .s-item h4 {
+        line-height: 2rem !important;
+    }
+    .habitant img {
+        width: 80%;
+    }
+    .h-item,
+    .b-item {
+        min-width: 100%;
+    }
+    .b-item {
+        /* height: 200px; */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    header {
+        /* height: 85vh; */
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .s-item,
+    .b-item {
+        min-width: 100%;
+    }
+    .habitant img {
+        width: 100%;
+    }
+}
