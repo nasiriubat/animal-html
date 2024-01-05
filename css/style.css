@@ -160,7 +160,7 @@ header {
 }
 
 .hero-text span {
-    color: rgb(231, 133, 149);
+    color: rgb(236, 161, 48);
 }
 
 .logo {
@@ -213,20 +213,21 @@ header {
 }
 
 .active {
-    background: rgba(100, 58, 121, 1);
-    border-radius: .3rem;
-    color: white;
+    background: rgba(100, 58, 121, 1) !important;
+    border-radius: .3rem !important;
+    color: white !important;
 }
 
 
 /*sticky menu*/
 
 .sticky {
+    /* color: white !important; */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(135, 80, 156, .9);
+    background: rgba(219, 239, 240, 0.9);
     padding: 1rem 0;
     box-shadow: 0 .2rem .5rem rgba(255, 255, 255, .9);
     z-index: 9999;
@@ -574,12 +575,13 @@ svg.ui-ux circle {
 
 .contact-section {
     text-align: center;
-    background: #d69da5;
+    background: #dcf7f1;
     padding: 1.5rem;
 }
 
 .contact-section h2 {
     margin-top: 8rem;
+    color: black;
 }
 
 .contact-section h2::after {
@@ -587,7 +589,7 @@ svg.ui-ux circle {
 }
 
 .contact-section .little-description {
-    color: #fff;
+    color: #130c0c;
 }
 
 .contact-section form {
@@ -600,7 +602,7 @@ svg.ui-ux circle {
 .contact-section input[type="email"],
 .contact-section textarea {
     background: #f9f9fa;
-    border: .1rem solid #d69da5;
+    border: .1rem solid #eca547;
     width: 100%;
     padding: 1.5rem;
     border-radius: .5rem;
@@ -631,10 +633,14 @@ svg.ui-ux circle {
 /*footer-section*/
 
 .footer-section {
-    background: #344b8e;
-    padding: 3rem 0;
+    background: #6f90f3;
+    padding: 1.5rem 0;
     text-align: center;
     border-top: .1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-section h4 {
+    margin: 0;
 }
 
 .footer-section li {
@@ -697,4 +703,30 @@ svg.ui-ux circle {
 
 .b-item .inner h2 {
     font-style: italic;
+}
+
+.g-div {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+    column-gap: 3px;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.g-div div {
+    width: 33%;
+}
+
+.g-div .height {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.g-div img:hover {
+    /* width: calc((100% - 20px) / 2); */
+    filter: brightness(100%);
 }
