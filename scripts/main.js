@@ -56,10 +56,18 @@ window.addEventListener('load', function() {
 });
 
 function downloadPDF() {
+    const hiddenImg = document.getElementById('hiddenImage');
+    hiddenImg.classList.add('show-img');
+
     const pdfContent = document.getElementById('pdfContent');
     pdfContent.classList.add('centered');
-    html2pdf(pdfContent);
+
+    html2pdf(pdfContent).then(() => {
+        // PDF generation is complete
+        window.location.reload();
+    });
 }
+
 
 function openImageInNewTab() {
     const tigerImage = document.getElementById('tigerImage');

@@ -130,7 +130,7 @@
         padding: 0 2rem;
     }
     .contact-div {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .contact-img {
         width: 100%;
