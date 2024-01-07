@@ -91,12 +91,67 @@
 
     </header>
     <!--header section end-->
+    <section>
+        <div class="contact-div">
+            <div class="contact-img">
+                <img src="./images/tova.jpg" alt="">
+            </div>
+            <div class="contact-table">
+                <table id="pdfContent">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td>First name</td>
+                        <td>Tova</td>
+                    </tr>
+                    <tr>
+                        <td>Last name</td>
+                        <td>Degan</td>
+                    </tr>
+                    <tr>
+                        <td>Street and street no</td>
+                        <td>Mercatorstraat 96</td>
+                    </tr>
+                    <tr>
+                        <td>Postal Code</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>Antwerp</td>
+                    </tr>
+                    <tr>
+                        <td>Class</td>
+                        <td>XMM 101A</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <a href="mailto:Tova.degan@outlook.com">Tova.degan@outlook.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>University of applied sciences</td>
+                        <td>
+                            <a href="https://www.kdg.be/bachelor-cross-media-management" target="_blank"></a>https://www.kdg.be/bachelor-cross-media-management</td>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <button onclick="downloadPDF()">Download PDF</button>
+                    <button onclick="openImageInNewTab()">Open in browser</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img style="display: none;" id="tigerImage" src="./images/btiger.jpg" alt="Tiger Image" width="300" height="200">
 
     <div class="whole">
         <section class="contact-section" id="contact" style="margin-top: 15px;">
             <div class="row">
                 <h2>get in touch</h2>
-                <p class="little-description"> Antwerp 2018, Tova.degan@outlook.com (mail & Tel) 
+                <p class="little-description"> Antwerp 2018, Tova.degan@outlook.com (mail & Tel)
                 </p>
             </div>
             <div class="row" style="margin-bottom: 3rem;">
@@ -135,6 +190,7 @@
     <script src="./scripts/jquery.waypoints.min.js"></script>
     <script src="./scripts/animated-circle.js"></script>
     <script src="./scripts/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="./scripts/main.js"></script>
 
 

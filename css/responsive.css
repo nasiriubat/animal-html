@@ -129,6 +129,16 @@
     .inner p {
         padding: 0 2rem;
     }
+    .contact-div {
+        flex-direction: column;
+    }
+    .contact-img {
+        width: 100%;
+    }
+    .contact-table {
+        width: 100%;
+        overflow: scroll;
+    }
 }
 
 @media only screen and (max-width:480px) {

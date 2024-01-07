@@ -54,3 +54,17 @@ window.addEventListener('load', function() {
     var audioPlayer = document.getElementById('audioPlayer');
     audioPlayer.play();
 });
+
+function downloadPDF() {
+    const pdfContent = document.getElementById('pdfContent');
+    pdfContent.classList.add('centered');
+    html2pdf(pdfContent);
+}
+
+function openImageInNewTab() {
+    const tigerImage = document.getElementById('tigerImage');
+    const imageUrl = tigerImage.src;
+
+    // Open the image in a new tab
+    window.open(imageUrl, '_blank');
+}
